@@ -27,6 +27,7 @@ module Testify
     def initialize
       super
 
+      # squash output
       null_output = Object.new
       def null_output.puts(*_);  end
       def null_output.print(*_); end
