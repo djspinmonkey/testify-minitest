@@ -1,6 +1,10 @@
 Testify-Minitest is a Testify Framework to run MiniTest tests.  Or put another
 way, a MiniTest::Unit runner that runs as a Testify framework.
  
-What I'm trying to say is, you can use it to get Testify to run MiniTest.  This
-probably will mean more to you if you are familiar with
+What I'm trying to say is, you can use it to get Testify to work with MiniTest.
+This probably will mean more to you if you are familiar with
 https://github.com/djspinmonkey/testify.
+
+Also, this project is currently at a very early state and likely to change or
+be largely rewritten (the current freedom punching approach doesn't really work
+and is super brittle).
