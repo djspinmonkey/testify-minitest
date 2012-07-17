@@ -1,5 +1,3 @@
-require_relative '../test_helper'
-
 class FailTest < MiniTest::Unit::TestCase
   def test_that_passes
     assert true
